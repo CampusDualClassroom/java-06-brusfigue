@@ -9,6 +9,9 @@ public class Exercise06 {
         Calendar now = Calendar.getInstance();
         int month = now.get(Calendar.MONTH) + 1;
         int hour = now.get(Calendar.HOUR_OF_DAY);
+
+        checkHour(hour);
+        checkSeason(month);
     }
 
     //TODO ↓
